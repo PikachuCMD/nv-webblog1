@@ -1,0 +1,11 @@
+{
+  "name": "nv-webblog1-server",
+  "version": "1.0.0",
+  "description": "nodejs vuejs webblog server (back end)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sakda klibnub",
+  "license": "ISC"
+}
