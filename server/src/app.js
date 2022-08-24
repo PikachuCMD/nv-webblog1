@@ -17,12 +17,12 @@ app.get('/hello/:person', function (req, res) {
 
 // get user by id
 app.get('/user/:userId', function (req, res){
-    res.send('ดูข้อมูลผู้ใช้งาน' + req.params.userId)
+    res.send('ดูข้อมูลผู้ใช้งาน:' + req.params.userId)
 })
 
 // get all user
 app.get('/users', function (req, res) {
-    res.send('เรียกข้อมูล ผู้ใช้งานทั้งหมด')
+    res.send('เรียกข้อมูล ผู้ใช้งานทั้งหมด:')
 })
 
 // create user
